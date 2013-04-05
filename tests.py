@@ -1,5 +1,4 @@
 import unittest 
-#from soduku.soduku import *
 from soduku import *
 
 
