@@ -1,4 +1,4 @@
-soduku_checker
+sudoku_checker
 =============
 
 a simple Soduku checker with relevant tests....
