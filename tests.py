@@ -1,5 +1,5 @@
 import unittest 
-from soduku import *
+from sudoku import *
 
 
 
@@ -35,27 +35,27 @@ incorrect6 = [[0,1,2],
               [2,0,1], 
               [1,2,0]]
 
-class SodukuTest(unittest.TestCase):
+class sudokuTest(unittest.TestCase):
     
-    def test_if_soduku_works_correct(self):
+    def test_if_sudoku_works_correct(self):
         self.assertEqual(check_sudoku(correct), True)
  
-    def test_if_soduku_works_incorrect(self):
+    def test_if_sudoku_works_incorrect(self):
         self.assertEqual(check_sudoku(incorrect), False)
 
-    def test_if_soduku_works_incorrect2(self):
+    def test_if_sudoku_works_incorrect2(self):
         self.assertEqual(check_sudoku(incorrect2), False)
 
-    def test_if_soduku_works_incorrect3(self):
+    def test_if_sudoku_works_incorrect3(self):
         self.assertEqual(check_sudoku(incorrect3), False)
 
-    def test_if_soduku_works_incorrect4(self):
+    def test_if_sudoku_works_incorrect4(self):
         self.assertEqual(check_sudoku(incorrect4), False)
 
-    def test_if_soduku_works_incorrect5(self):
+    def test_if_sudoku_works_incorrect5(self):
         self.assertEqual(check_sudoku(incorrect5), False)
 
-    def test_if_soduku_works_incorrect6(self):
+    def test_if_sudoku_works_incorrect6(self):
         self.assertEqual(check_sudoku(incorrect6), False)
 
 
